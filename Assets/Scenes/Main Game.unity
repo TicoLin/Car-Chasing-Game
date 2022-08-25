@@ -171,7 +171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515196972672080, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1531515196972672080, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_LocalPosition.z
@@ -263,7 +263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197368944235, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197368944235, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
@@ -271,11 +271,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197368944235, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
@@ -283,11 +283,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
@@ -295,11 +295,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
@@ -307,7 +307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
@@ -1173,6 +1173,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3473307636522217937, guid: bd0fbd7476b768e42977b658ca09259f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473307637754167781, guid: bd0fbd7476b768e42977b658ca09259f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473307637758984406, guid: bd0fbd7476b768e42977b658ca09259f, type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11261,9 +11269,9 @@ RectTransform:
   m_Father: {fileID: 2123313255}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136, y: 146}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 176, y: -49}
   m_SizeDelta: {x: 281.2939, y: 141.9415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518689386
@@ -25185,7 +25193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -25213,9 +25221,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &2123313255
 RectTransform:

@@ -1224,7 +1224,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1022096284248207718}
-  - component: {fileID: 1022096284248207719}
   - component: {fileID: 1022096284248207712}
   - component: {fileID: 1976587461424786360}
   m_Layer: 0
@@ -1265,35 +1264,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1022096284248207719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022096284248207717}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f365e80380d324c58b246529fc3e47de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gm: {fileID: 0}
-  isGrounded: 1
-  fwdspeed: 200
-  bwdspeed: 125
-  turnspeed: 250
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  trailRenderer:
-  - {fileID: 1022096285346420439}
-  - {fileID: 1022096283966013581}
-  particle_dust:
-  - {fileID: 1976587461727224490}
-  - {fileID: 1976587459797778515}
-  - {fileID: 1976587461432400934}
-  - {fileID: 1976587460503804301}
-  mass: -0.9
 --- !u!54 &1022096284248207712
 Rigidbody:
   m_ObjectHideFlags: 0

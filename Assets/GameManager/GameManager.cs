@@ -10,7 +10,6 @@ using System.IO;
 
 public class GameManager : MonoBehaviour
 {
-    public Transform player;
     public LevelLoader levelLoader;
     public static bool playerIsDead = false;
     public static float timer = 0f;
@@ -24,15 +23,26 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            Time.timeScale = 1;
+            playerIsDead = false;
+            menuCounter = 0;
+        }
+        
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
+            Time.timeScale = 1;
+            menuCounter = 0;
             player_data = new PlayerData();
             time_used_text = GameObject.Find("UI")?.transform.Find("time")?.GetComponent<Text>();
+            playerIsDead = false;
         }
         
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-
+            Time.timeScale = 1;
+            menuCounter = 0;
             time_used_text = GameObject.Find("UI")?.transform.Find("time")?.GetComponent<Text>();
             Highest_score_text = GameObject.Find("UI")?.transform.Find("highest_score")?.GetComponent<Text>();
             playerIsDead = false;
@@ -57,7 +67,7 @@ public class GameManager : MonoBehaviour
             player_data = new PlayerData();
            // Debug.Log(player_data.data);
             
-            if (PlayerPrefs.GetString("car_chasing_data") == null)
+            if (JsonUtility.FromJson<PlayerData>(PlayerPrefs.GetString("car_chasing_data")) == null)
             {
                 PlayerPrefs.SetString("car_chasing_data", JsonUtility.ToJson(player_data));
             } 
