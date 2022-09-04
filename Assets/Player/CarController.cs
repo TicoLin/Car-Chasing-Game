@@ -14,6 +14,9 @@ public class CarController : MonoBehaviour {
     public float turnspeed;
     public LayerMask groundLayer;
     public TrailRenderer[] trailRenderer;
+    public WheelCollider[] wheels;
+    public WheelFrictionCurve slide_friction;
+    public WheelFrictionCurve normal_friction;
     public ParticleSystem[] particle_dust;
     private bool is_drifting;
     private float lower_limit_speed=135f;
@@ -75,6 +78,16 @@ public class CarController : MonoBehaviour {
             {
                 trails.emitting = true;
             }
+            foreach(WheelCollider wheel in wheels)
+            {
+                
+                slide_friction.extremumSlip = 0.2f;
+                slide_friction.extremumValue = 1f;
+                slide_friction.asymptoteSlip = 0.1f;
+                slide_friction.asymptoteValue = 0.4f;
+                slide_friction.stiffness = 0.75f;
+                wheel.sidewaysFriction =slide_friction;
+            }
             drifting_noise.Play();
         }
         else
@@ -84,6 +97,15 @@ public class CarController : MonoBehaviour {
             foreach (TrailRenderer trails in trailRenderer)
             {
                 trails.emitting = false;
+            }
+            foreach (WheelCollider wheel in wheels)
+            {
+                normal_friction.extremumSlip = 0.2f;
+                normal_friction.extremumValue = 1f;
+                normal_friction.asymptoteSlip = 0.1f;
+                normal_friction.asymptoteValue = 1f;
+                normal_friction.stiffness = 1f;
+                wheel.sidewaysFriction = normal_friction;
             }
             drifting_noise.Pause();
         }

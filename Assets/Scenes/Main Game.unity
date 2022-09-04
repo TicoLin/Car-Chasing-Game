@@ -226,6 +226,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1111865921}
     - target: {fileID: 1531515196972672081, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: wheels.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515196972672081, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: wheels.Array.data[0]
+      value: 
+      objectReference: {fileID: 1556761864}
+    - target: {fileID: 1531515196972672081, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: wheels.Array.data[1]
+      value: 
+      objectReference: {fileID: 1603035400}
+    - target: {fileID: 1531515196972672081, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: particle_dust.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -255,7 +267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515196972672086, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
-      value: 500
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1531515196972672086, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_CollisionDetection
@@ -273,6 +285,18 @@ PrefabInstance:
       propertyPath: m_SuspensionDistance
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1531515197368944235, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515197368944235, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteSlip
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515197501288708, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
       value: 20
@@ -284,6 +308,18 @@ PrefabInstance:
     - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteSlip
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
@@ -297,6 +333,18 @@ PrefabInstance:
       propertyPath: m_SuspensionDistance
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteSlip
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_Mass
       value: 20
@@ -308,6 +356,18 @@ PrefabInstance:
     - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_ForceAppPointDistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_SidewaysFriction.m_Stiffness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteSlip
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
@@ -11419,6 +11479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1022096284248207717, guid: e2eb6426d505a2e47a7380783aea297f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1022096284248207718, guid: e2eb6426d505a2e47a7380783aea297f, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -22106,7 +22170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &847312690
 Transform:
   m_ObjectHideFlags: 0
@@ -23787,6 +23851,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eba0b0333f6ca8b4783afc1f8f6abc97, type: 3}
+--- !u!146 &1556761864 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+  m_PrefabInstance: {fileID: 28386913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1586438235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b3c167f373dfceb46856e88348d38e6c, type: 3}
@@ -23882,6 +23951,11 @@ PrefabInstance:
 --- !u!4 &1603035399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1531515198768092637, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+  m_PrefabInstance: {fileID: 28386913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &1603035400 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
   m_PrefabInstance: {fileID: 28386913}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1651288814 stripped
