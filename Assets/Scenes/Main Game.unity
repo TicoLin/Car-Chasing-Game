@@ -270,6 +270,10 @@ PrefabInstance:
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1531515196972672086, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531515196972672086, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_CollisionDetection
       value: 2
       objectReference: {fileID: 0}
@@ -279,7 +283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197368944235, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197368944235, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
@@ -303,7 +307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197501288827, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
@@ -327,7 +331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1531515197797980406, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance
@@ -351,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_WheelDampingRate
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1531515198768092624, guid: 8737aceba604b0447928a2a6cb365a10, type: 3}
       propertyPath: m_SuspensionDistance

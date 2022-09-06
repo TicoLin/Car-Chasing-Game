@@ -23,7 +23,7 @@ public class CarController : MonoBehaviour {
     private float upper_limit_speed=200f;
     private bool is_moving;
     private bool is_not_moving;
-    public float mass=-0.9f;
+    public float mass=-0.8f;
 
     public AudioSource engine_noise;
     public AudioSource drifting_noise;
@@ -115,7 +115,7 @@ public class CarController : MonoBehaviour {
         isGrounded = Physics.Raycast(transform.position,Vector3.down, out hit, 0.25f,groundLayer);
         transform.rotation = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
 
-        transform.GetComponent<Rigidbody>().drag = isGrounded ? 4f : 0.15f;
+        transform.GetComponent<Rigidbody>().drag = isGrounded ? 2f : 0.8f;
 
 
         if (is_moving)
@@ -136,7 +136,7 @@ public class CarController : MonoBehaviour {
         }
         else
         {
-            transform.GetComponent<Rigidbody>().AddForce(transform.up * -9.81f);
+            //transform.GetComponent<Rigidbody>().AddForce(transform.up * -9.81f);
         }
     }
 
